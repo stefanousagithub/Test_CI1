@@ -29,4 +29,4 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package
-      working-directory: prova/pom.xml
+      working-directory: prova/
